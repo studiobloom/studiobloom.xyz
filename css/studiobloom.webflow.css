@@ -1400,13 +1400,11 @@ img {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  margin-top: 5%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1711,6 +1709,7 @@ img {
   }
 
   .heading-wrapper {
+    overflow: hidden;
     margin-top: 115px;
   }
 
@@ -1724,6 +1723,10 @@ img {
     -ms-flex-pack: center;
     justify-content: center;
     background-color: hsla(0, 0%, 4%, 0.73);
+  }
+
+  .about-me {
+    overflow: hidden;
   }
 
   .project-body-copy {
@@ -1785,7 +1788,7 @@ img {
   }
 
   .body-2 {
-    overflow: hidden;
+    overflow: visible;
   }
 
   .footer-2 {
@@ -1807,7 +1810,7 @@ img {
   }
 
   .section-6 {
-    position: absolute;
+    position: static;
   }
 
   .grid-2 {
@@ -1819,6 +1822,13 @@ img {
 
   .image-6.passthrough {
     display: block;
+  }
+
+  .section-7 {
+    position: static;
+    display: block;
+    height: 100vh;
+    margin-top: 0%;
   }
 
   .navbar {
@@ -1852,6 +1862,10 @@ img {
   .section-8 {
     display: block;
     width: 95vw;
+  }
+
+  .container-5 {
+    overflow: hidden;
   }
 }
 
@@ -2097,6 +2111,10 @@ img {
   .image-6.passthrough {
     width: auto;
     max-width: none;
+  }
+
+  .section-7 {
+    position: static;
   }
 
   .misc-1 {
