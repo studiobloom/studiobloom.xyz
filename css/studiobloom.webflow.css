@@ -1608,6 +1608,7 @@ img {
 
 .image-7 {
   display: block;
+  overflow: hidden;
 }
 
 .div-block-4 {
@@ -1641,6 +1642,7 @@ img {
 
 .section-8 {
   display: block;
+  overflow: hidden;
   width: 75vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
