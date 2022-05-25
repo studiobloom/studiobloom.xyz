@@ -1377,6 +1377,7 @@ img {
 }
 
 .navbar {
+  overflow: hidden;
   background-color: rgba(27, 27, 27, 0.44);
 }
 
