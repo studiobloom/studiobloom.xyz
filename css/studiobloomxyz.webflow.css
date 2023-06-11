@@ -24,7 +24,7 @@ h1 {
 }
 
 p {
-  color: #816bcc;
+  color: #9a7dff;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 700;
@@ -44,6 +44,7 @@ ul {
 }
 
 li {
+  color: #9a7dff;
   font-weight: 700;
 }
 
@@ -52,9 +53,19 @@ img {
   display: inline-block;
 }
 
+strong {
+  color: #9a7dff;
+  font-weight: 700;
+}
+
 em {
+  color: #9a7dff;
   font-style: italic;
   font-weight: 400;
+}
+
+sup {
+  color: #9a7dff;
 }
 
 .section-bg {
@@ -82,6 +93,7 @@ em {
   margin-bottom: 1rem;
   padding: .5rem 1.375rem .75rem;
   display: flex;
+  overflow: hidden;
 }
 
 .app-wrapper {
@@ -358,9 +370,10 @@ em {
   font-weight: 900;
 }
 
-.web-image {
+.project-image {
   width: 100%;
   height: 100%;
+  opacity: .5;
   filter: saturate(50%);
   border: 1px solid #9a7dff;
   border-radius: 1.75rem;
@@ -373,8 +386,15 @@ em {
   padding-right: 1rem;
 }
 
-.title {
+.project-title {
   text-align: center;
+}
+
+.resume {
+  color: #9a7dff;
+  background-color: #272233;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .play-pause-button {
@@ -420,8 +440,78 @@ em {
   line-height: 8vw;
 }
 
-.o, .image-2 {
+.o {
   max-width: 50%;
+}
+
+.scrollbar-html-override {
+  width: 0;
+  height: 0;
+}
+
+.image-2 {
+  max-width: 50%;
+}
+
+.utility-page-wrap {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.utility-page-content {
+  width: 260px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.heading {
+  color: #816bcc;
+  margin-top: 0;
+  font-family: Exo, sans-serif;
+}
+
+.error {
+  color: #9a7dff;
+  font-family: Exo, sans-serif;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.submit-button {
+  background-color: #816bcc;
+  border-radius: 10px;
+  font-family: Exo, sans-serif;
+}
+
+.text-field {
+  color: #9a7dff;
+  background-color: #4d4566;
+  border: 2px solid #272233;
+  border-radius: 10px;
+  font-family: Exo, sans-serif;
+}
+
+.text-field::-ms-input-placeholder {
+  color: #816bcc;
+}
+
+.text-field::placeholder {
+  color: #816bcc;
+}
+
+.field-label {
+  color: #816bcc;
+  font-family: Exo, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
